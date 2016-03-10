@@ -1,0 +1,90 @@
+/*-----check_out 离店登记--------*/
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding: 0;
+}
+.myTab{
+    border-bottom: 1px solid #c8c8c8;
+    padding-left: 0;
+    padding-bottom: 5%;
+}
+#myTab{
+    width: 100%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+#myTab li{
+    width: 50%;
+    text-align: center;
+    padding: 10px 12px;
+    float: left;
+    border: 1px solid #c8c8c8;
+    background: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+#myTab li.active{
+    background: dodgerblue;
+}
+#myTab li.active a div{
+    color: white;
+}
+
+.tab-content ul{
+    margin: 0;
+    padding: 0;
+}
+.media{
+    line-height: 25px;
+    margin-top: 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+.media-body {
+    width: 66.66666667%;
+}
+.media-object{
+    padding: 8%;
+}
+.checkbox input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+#people .media {
+    margin-top: 0;
+    padding: 5px 0 5px 0;
+}
+#people .media-right, .media>.pull-right {
+    padding-left: 0;
+    width: 30px;
+}
+#room>.media>.media-left{
+    text-align: center;
+}
+#room>.media>.media-body{
+    border-left:1px solid #c8c8c8;
+    border-right:1px solid #c8c8c8;
+}
+#room>.media>.media-body>.media:nth-last-child(1){
+    border-bottom: 0;
+}
+#room .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox]{
+    margin-left: -15px;
+}
+/*-----registration_inquiry 登记查询--------*/
+.registration_inquiry .media {
+    border-bottom: 0;
+}
+.registration_inquiry ul {
+    padding: 0;
+}
+.list-group-item {
+    padding: 10px 5px;
+}
+.registration_inquiry .media-right, .media>.pull-right {
+    padding: 0;
+    width: 10%;
+}
+.registration_inquiry>.container-fluid {
+    padding:0;
+}

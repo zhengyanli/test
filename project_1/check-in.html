@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> check_in </title>
+    <link rel="stylesheet" media="all" href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--引入的样式-->
+    <link rel="stylesheet" media="screen" href="css/index.css">
+    <link rel="stylesheet" media="screen" href="css/common.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-chevron-left"></i></a>
+            <h1 class="navbar-brand navbar-brand-centered">入住登记</h1>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid container-footer">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">姓名</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="请输入入住者姓名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">性别</label>
+            <div class="col-sm-10">
+                <label class="radio-inline">
+                    <input type="radio" name="sex" id="male" value="male"> 男
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="sex" id="woman" value="woman"> 女
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">名族</label>
+            <div class="col-sm-10">
+            <select class="form-control">
+                <option>汉族</option>
+                <option>维吾尔族</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="card" class="col-sm-2 control-label">身份证/生日</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="card" placeholder="请输入生日格式：年/月/日">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="address" class="col-sm-2 control-label">户籍地址</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="address" placeholder="请输入户籍地址">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="days" class="col-sm-2 control-label">入住天数</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="days" placeholder="请输入入住天数">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="room" class="col-sm-2 control-label">入住房号</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="room" placeholder="请输入入住房号">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-12">拍摄证照</label>
+            <div class="col-sm-12 Shooting">
+                <div class="col-xs-3">
+                    <img class="img-thumbnail" src="images/1.jpg">
+                </div>
+                <div class="col-xs-3">
+                    <img class="img-thumbnail" src="images/1.jpg">
+                </div>
+                <div class="col-xs-3">
+                    <div>+</div>
+                    <input class="btn btn-default" type="button">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<footer class="container-fluid footer-padding alert-box">
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="btn btn-default btn-lg" href="submit-audit.html">入住登记</a>
+        </div>
+    </div>
+</footer>
+
+<div class="alert fade alert-danger" tabindex="-1" role="alert">
+        <button type="button" class="close"><span>×</span></button>
+    <h4> 登记失败！</h4>
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/check-in.js"></script>
+<!--<script src="js/common.js"></script>-->
+</body>
+</html>

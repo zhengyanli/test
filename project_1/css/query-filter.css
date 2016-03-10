@@ -1,0 +1,16 @@
+.btn-group-lg>.btn, .btn-lg{
+    padding: 5px 66px;
+}
+.col-xs-3{
+    padding-right: 0;
+}
+.col-xs-8{
+    padding-right: 0;
+    padding-left: 0;
+}
+label {
+    margin-top: 5px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    width: 100%;
+}

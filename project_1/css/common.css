@@ -1,0 +1,84 @@
+/*--------nav页头---------*/
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav+div{
+    margin-top: 65px;
+}
+/*--------footer页尾---------*/
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: #f8f8f8;
+}
+.container-footer{
+    margin-bottom: 15%;
+}
+.footer-padding>div>div{
+    padding: 0;
+}
+.footer-padding>div>div a{
+    width: 100%;
+    border-radius: 0;
+}
+/*--------a标签样式---------*/
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+/*--------模态框---------*/
+.modal-dialog {
+    margin: 50px;
+}
+.modal-content{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing:3px;
+    padding: 10%;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px auto white;
+}
+.btn-default.focus, .btn-default:focus {
+    background-color: #fff;
+}
+/*--------模态框成功---------*/
+.modal-successful{
+    background: white;
+    color: #000;
+}
+/*--------模态框失败---------*/
+.modal-failure{
+    background: lightcoral;
+    color: #ffffff;
+}
+/*--------警告框---------*/
+.alert{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+.fade{
+    z-index: -1;
+}
